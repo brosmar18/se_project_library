@@ -337,10 +337,14 @@
   padding: 0;
   margin: 100px 0 0;
   /* Add styles */
+  display: flex;
+  justify-content: center;
+  gap: 40px;
 }
 
 .step {
   /* Add styles */
+  flex-basis: 220px;
 }
 
 .step__title {
