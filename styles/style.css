@@ -411,6 +411,8 @@
 
 .footer {
   box-sizing: border-box;
+  background-color: rebeccapurple;
+  color: #fff;
 }
 
 .footer__columns {
