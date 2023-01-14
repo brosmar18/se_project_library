@@ -410,14 +410,15 @@
 }
 
 .footer {
-  background-color: #1f1f1f;
+  box-sizing: border-box;
+  background-color: rebeccapurple;
   color: #fff;
   border: 1px solid red;
 }
 
 .footer__columns {
   padding: 60px 102px 60px 80px;
-  border: 2px solid yellow;
+  border: 1px solid red;
 }
 
 .footer__column_content_hours {
@@ -445,6 +446,7 @@
 }
 
 .footer__column-heading {
+  border: 1px solid red;
 }
 
 .footer__column-link {
@@ -455,6 +457,7 @@
 }
 
 .footer__social-icon {
+  border: 1px solid red;
 }
 
 .footer__copyright {
