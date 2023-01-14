@@ -125,8 +125,12 @@
 /* Add the CSS rule for your new class here. Make sure to place it before .card: parents should precede their children */
 .staff__cards {
   max-width: 760px;
-  margin: 0 auto;
-  border: 1px solid red;
+  margin: 68px auto 0;
+  padding: 0;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  gap: 40px;
 }
 
 .card {
@@ -136,7 +140,7 @@
   box-sizing: border-box;
   width: 360px;
   height: 420px;
-  list-style: none;```Æ
+  list-style: none;
 }
 
 .card__content {
@@ -249,7 +253,6 @@
   flex-basis: 780px;
   max-width: 780px;
   position: relative;
-  border: 1px solid red;
 }
 
 .events__image {
