@@ -410,6 +410,7 @@
 }
 
 .footer {
+  border: 1px solid red;
   box-sizing: border-box;
   background-color: #1f1f1f;
   color: #fff;
